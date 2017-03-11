@@ -1,0 +1,50 @@
+# Connections for the LEDS
+
+#Net temp_leds(0) LOC=U16  ;
+#Net temp_leds(1) LOC=V16  ;
+#Net temp_leds(2) LOC=U15  ;
+#Net temp_leds(3) LOC=V15  ;
+#Net temp_leds(4) LOC=M11  ;
+#Net temp_leds(5) LOC=N11  ;
+#Net temp_leds(6) LOC=R11  ;
+#Net temp_leds(7) LOC=T11  ;
+
+# Connections for the buttons
+
+Net BTNC LOC=B8  ;
+Net BTNU LOC=A8  ;
+Net BTNL LOC=C4  ;
+Net BTND LOC=C9  ;
+Net BTNR LOC=D9  ;
+
+# Connections for the switches
+
+###Net a(0) LOC=T10  ;
+###Net a(1) LOC=T9   ;
+###Net a(2) LOC=V9   ;
+###Net a(3) LOC=M8   ;
+###Net a(4) LOC=N8   ;
+#Net SW5 LOC=U8   ;
+#Net SW6 LOC=V8   ;
+#Net SW7 LOC=T5   ;
+
+# Connections for the Seven Segment Display
+
+Net b(0) LOC=T17   ;
+Net b(1) LOC=T18   ;
+Net b(2) LOC=U17   ;
+Net b(3) LOC=U18   ;
+Net b(4) LOC=M14   ;
+Net b(5) LOC=N14   ;
+Net b(6) LOC=L14   ;
+Net b(7) LOC=M13   ;
+
+Net AN0 LOC=N16  ;
+Net AN1 LOC=N15  ;
+Net AN2 LOC=P19  ;
+Net AN3 LOC=P17  ;
+
+# Connections for the UART and CLK
+
+#Net UART_TXD LOC=N18  ;
+Net mclk LOC=V10       ;

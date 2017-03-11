@@ -1,0 +1,84 @@
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc7a100t-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc7a100t-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "H:/4540/lab1/ProcessorToLevel.xst" -ofn "H:/4540/lab1/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 
+xst -intstyle ise -ifn "T:/lab1nick/ProcessorToLevel.xst" -ofn "T:/lab1nick/ProcessorToLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inputUCF.ucf -p xc6slx16-csg324-3 ProcessorToLevel.ngc ProcessorToLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ProcessorToLevel_map.ncd ProcessorToLevel.ngd ProcessorToLevel.pcf 
+par -w -intstyle ise -ol high -mt off ProcessorToLevel_map.ncd ProcessorToLevel.ncd ProcessorToLevel.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ProcessorToLevel.twx ProcessorToLevel.ncd -o ProcessorToLevel.twr ProcessorToLevel.pcf -ucf inputUCF.ucf 
+bitgen -intstyle ise -f ProcessorToLevel.ut ProcessorToLevel.ncd 

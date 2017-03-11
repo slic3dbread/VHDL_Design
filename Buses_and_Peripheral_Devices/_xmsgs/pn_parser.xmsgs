@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/ALU_16Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/ALU_1Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/AdderSubtractor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/BinLogic.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/DataRegister.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/FourDigitSevenSegController.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/FullAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/HalfAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Input20DigitsForSevenSeg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/LTComparator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Memory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Mux8to1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/SevenSegDisplay.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/SevenSegDisplay_1_Digit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/debouncer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/sevensegdecoder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/singlePortMemory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/ssegwrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/topLevel.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

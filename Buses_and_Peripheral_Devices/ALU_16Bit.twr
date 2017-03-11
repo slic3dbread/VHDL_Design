@@ -1,0 +1,229 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ALU_16Bit.twx ALU_16Bit.ncd -o ALU_16Bit.twr ALU_16Bit.pcf
+
+Design file:              ALU_16Bit.ncd
+Physical constraint file: ALU_16Bit.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Cin            |Cout           |   12.507|
+Cin            |Overflow       |   12.558|
+S<0>           |Z<0>           |    9.045|
+S<0>           |Z<1>           |    8.840|
+S<0>           |Z<2>           |    8.786|
+S<0>           |Z<3>           |    8.869|
+S<0>           |Z<4>           |    9.090|
+S<0>           |Z<5>           |    8.818|
+S<0>           |Z<6>           |    9.382|
+S<0>           |Z<7>           |    8.403|
+S<0>           |Z<8>           |    8.354|
+S<0>           |Z<9>           |    8.189|
+S<0>           |Z<10>          |    8.056|
+S<0>           |Z<11>          |    7.933|
+S<0>           |Z<12>          |    8.023|
+S<0>           |Z<13>          |    7.754|
+S<0>           |Z<14>          |    6.744|
+S<0>           |Z<15>          |    7.524|
+S<1>           |Z<0>           |    7.165|
+S<1>           |Z<1>           |    7.594|
+S<1>           |Z<2>           |    7.392|
+S<1>           |Z<3>           |    7.092|
+S<1>           |Z<4>           |    7.006|
+S<1>           |Z<5>           |    7.064|
+S<1>           |Z<6>           |    7.414|
+S<1>           |Z<7>           |    7.446|
+S<1>           |Z<8>           |    6.597|
+S<1>           |Z<9>           |    7.419|
+S<1>           |Z<10>          |    7.473|
+S<1>           |Z<11>          |    7.455|
+S<1>           |Z<12>          |    7.418|
+S<1>           |Z<13>          |    7.715|
+S<1>           |Z<14>          |    7.058|
+S<1>           |Z<15>          |    7.150|
+S<2>           |Z<0>           |    7.449|
+S<2>           |Z<1>           |    7.419|
+S<2>           |Z<2>           |    7.209|
+S<2>           |Z<3>           |    6.970|
+S<2>           |Z<4>           |    7.290|
+S<2>           |Z<5>           |    6.942|
+S<2>           |Z<6>           |    7.292|
+S<2>           |Z<7>           |    7.454|
+S<2>           |Z<8>           |    6.441|
+S<2>           |Z<9>           |    7.487|
+S<2>           |Z<10>          |    7.029|
+S<2>           |Z<11>          |    7.093|
+S<2>           |Z<12>          |    7.174|
+S<2>           |Z<13>          |    7.452|
+S<2>           |Z<14>          |    7.175|
+S<2>           |Z<15>          |    6.510|
+X<0>           |Cout           |   12.445|
+X<0>           |Overflow       |   12.496|
+X<0>           |Z<0>           |    7.474|
+X<0>           |lt             |    9.910|
+X<1>           |Cout           |   12.526|
+X<1>           |Overflow       |   12.577|
+X<1>           |Z<1>           |    7.601|
+X<1>           |lt             |   10.099|
+X<2>           |Cout           |   12.213|
+X<2>           |Overflow       |   12.264|
+X<2>           |Z<2>           |    7.070|
+X<2>           |lt             |    9.567|
+X<3>           |Cout           |   11.610|
+X<3>           |Overflow       |   11.661|
+X<3>           |Z<3>           |    7.174|
+X<3>           |lt             |    9.998|
+X<4>           |Cout           |   11.602|
+X<4>           |Overflow       |   11.653|
+X<4>           |Z<4>           |    6.929|
+X<4>           |lt             |    9.906|
+X<5>           |Cout           |   10.891|
+X<5>           |Overflow       |   10.942|
+X<5>           |Z<5>           |    6.583|
+X<5>           |lt             |    9.941|
+X<6>           |Cout           |   11.358|
+X<6>           |Overflow       |   11.409|
+X<6>           |Z<6>           |    6.891|
+X<6>           |lt             |   10.064|
+X<7>           |Cout           |   11.294|
+X<7>           |Overflow       |   11.345|
+X<7>           |Z<7>           |    8.025|
+X<7>           |lt             |    9.460|
+X<8>           |Cout           |   10.957|
+X<8>           |Overflow       |   11.008|
+X<8>           |Z<8>           |    6.840|
+X<8>           |lt             |    9.959|
+X<9>           |Cout           |    9.962|
+X<9>           |Overflow       |   10.013|
+X<9>           |Z<9>           |    7.355|
+X<9>           |lt             |    9.568|
+X<10>          |Cout           |   10.014|
+X<10>          |Overflow       |   10.065|
+X<10>          |Z<10>          |    8.121|
+X<10>          |lt             |    9.669|
+X<11>          |Cout           |    9.623|
+X<11>          |Overflow       |    9.674|
+X<11>          |Z<11>          |    7.234|
+X<11>          |lt             |    9.499|
+X<12>          |Cout           |    9.998|
+X<12>          |Overflow       |   10.049|
+X<12>          |Z<12>          |    7.829|
+X<12>          |lt             |    9.293|
+X<13>          |Cout           |    9.267|
+X<13>          |Overflow       |    9.318|
+X<13>          |Z<13>          |    7.658|
+X<13>          |lt             |    9.283|
+X<14>          |Cout           |    8.791|
+X<14>          |Overflow       |    8.842|
+X<14>          |Z<14>          |    6.952|
+X<14>          |lt             |    8.098|
+X<15>          |Cout           |    8.217|
+X<15>          |Overflow       |    8.268|
+X<15>          |Z<15>          |    6.802|
+X<15>          |lt             |    8.251|
+Y<0>           |Cout           |   12.223|
+Y<0>           |Overflow       |   12.274|
+Y<0>           |Z<0>           |    6.974|
+Y<0>           |lt             |    9.687|
+Y<1>           |Cout           |   11.959|
+Y<1>           |Overflow       |   12.010|
+Y<1>           |Z<1>           |    7.372|
+Y<1>           |lt             |    9.722|
+Y<2>           |Cout           |   12.343|
+Y<2>           |Overflow       |   12.394|
+Y<2>           |Z<2>           |    7.200|
+Y<2>           |lt             |    9.688|
+Y<3>           |Cout           |   11.888|
+Y<3>           |Overflow       |   11.939|
+Y<3>           |Z<3>           |    6.932|
+Y<3>           |lt             |    9.608|
+Y<4>           |Cout           |   11.417|
+Y<4>           |Overflow       |   11.468|
+Y<4>           |Z<4>           |    6.936|
+Y<4>           |lt             |    9.806|
+Y<5>           |Cout           |   10.979|
+Y<5>           |Overflow       |   11.030|
+Y<5>           |Z<5>           |    7.054|
+Y<5>           |lt             |    9.574|
+Y<6>           |Cout           |   11.187|
+Y<6>           |Overflow       |   11.238|
+Y<6>           |Z<6>           |    6.881|
+Y<6>           |lt             |    9.454|
+Y<7>           |Cout           |   11.202|
+Y<7>           |Overflow       |   11.253|
+Y<7>           |Z<7>           |    7.933|
+Y<7>           |lt             |    9.687|
+Y<8>           |Cout           |    9.845|
+Y<8>           |Overflow       |    9.896|
+Y<8>           |Z<8>           |    6.726|
+Y<8>           |lt             |    9.223|
+Y<9>           |Cout           |    9.915|
+Y<9>           |Overflow       |    9.966|
+Y<9>           |Z<9>           |    7.264|
+Y<9>           |lt             |    9.998|
+Y<10>          |Cout           |    9.615|
+Y<10>          |Overflow       |    9.666|
+Y<10>          |Z<10>          |    7.655|
+Y<10>          |lt             |    9.433|
+Y<11>          |Cout           |   10.356|
+Y<11>          |Overflow       |   10.407|
+Y<11>          |Z<11>          |    8.400|
+Y<11>          |lt             |    9.926|
+Y<12>          |Cout           |    9.516|
+Y<12>          |Overflow       |    9.567|
+Y<12>          |Z<12>          |    7.099|
+Y<12>          |lt             |    9.873|
+Y<13>          |Cout           |    8.839|
+Y<13>          |Overflow       |    8.890|
+Y<13>          |Z<13>          |    7.575|
+Y<13>          |lt             |   10.212|
+Y<14>          |Cout           |    8.465|
+Y<14>          |Overflow       |    8.516|
+Y<14>          |Z<14>          |    7.005|
+Y<14>          |lt             |    8.236|
+Y<15>          |Cout           |    8.326|
+Y<15>          |Overflow       |    8.377|
+Y<15>          |Z<15>          |    7.704|
+Y<15>          |lt             |    8.362|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Feb 11 08:51:21 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 218 MB
+
+
+

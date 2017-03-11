@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=T:\Lab2\Four-Digit_7-Seg_Controller\Led_Test.ncd
+OUTFILE=T:\Lab2\Four-Digit_7-Seg_Controller\Led_Test.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=T:\Lab2\Four-Digit_7-Seg_Controller
+LICENSE=ISE
+USER_INFO=176056492_206666006_210593716_622

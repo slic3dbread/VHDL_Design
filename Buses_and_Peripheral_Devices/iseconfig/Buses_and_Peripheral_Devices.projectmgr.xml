@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Buses_and_Peripheral_Devices" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUTestBench - behavior H:|Second Year|ENGG3380|Labs|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|ALU_16Bit.vhd</ClosedNode>
+         <ClosedNode>/topLevel - Structural T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|topLevel.vhd/peripheral1 - ssegwrapper - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>peripheral1 - ssegwrapper - Structural (T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/ssegwrapper.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000230000000020000000000000000000000000200000064ffffffff000000810000000300000002000002300000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>peripheral1 - ssegwrapper - Structural (T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/ssegwrapper.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a1000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ba00000001000000000000009d0000000100000000000000660000000100000000000001e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AdderSubtractor.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUTestBench - behavior H:|Second Year|ENGG3380|Labs|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|ALU_16Bit.vhd</ClosedNode>
+         <ClosedNode>/Input20DigitsForSevenSeg - Structural T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|Input20DigitsForSevenSeg.vhd</ClosedNode>
+         <ClosedNode>/MemoryTB - behavior H:|Second Year|ENGG3380|Labs|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|MemoryTB.vhd</ClosedNode>
+         <ClosedNode>/MemoryTB - behavior T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|MemoryTB.vhd</ClosedNode>
+         <ClosedNode>/SevSeg4DigitTB - behavior H:|Second Year|ENGG3380|Labs|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|SevSeg4DigitTB.vhd</ClosedNode>
+         <ClosedNode>/SevSeg4DigitTB - behavior T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|SevSeg4DigitTB.vhd</ClosedNode>
+         <ClosedNode>/peripheral1_sseg_singleDigit - behavior H:|Second Year|ENGG3380|Labs|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|peripheral1_sseg_singleDigit.vhd</ClosedNode>
+         <ClosedNode>/peripheral1_sseg_singleDigit - behavior T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|peripheral1_sseg_singleDigit.vhd/uut - ssegwrapper - Structural</ClosedNode>
+         <ClosedNode>/peripheral1_sseg_singleDigit_TB - behavior T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|peripheral1_sseg_singleDigit.vhd/uut - ssegwrapper - Structural</ClosedNode>
+         <ClosedNode>/topLevel - Structural H:|Second Year|ENGG3380|Labs|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|topLevel.vhd/peripheral1 - ssegwrapper - Structural</ClosedNode>
+         <ClosedNode>/topLevel - Structural T:|Lab4 - Buses and Peripheral Devices|Buses_and_Peripheral_Devices|topLevel.vhd/peripheral1 - ssegwrapper - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Peripheral1_sseg_FourDigit_TB - behavior (T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000258000000020000000000000000000000000200000064ffffffff000000810000000300000002000002580000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Peripheral1_sseg_FourDigit_TB - behavior (T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

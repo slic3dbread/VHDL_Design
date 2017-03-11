@@ -1,0 +1,42 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    14:12:03 03/22/2015 
+-- Design Name: 
+-- Module Name:    incrementor - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity incrementor is
+    Port ( PCin : in  STD_LOGIC_VECTOR (15 downto 0);
+           PCplusOne : out  STD_LOGIC_VECTOR (15 downto 0);
+           incr : in  STD_LOGIC);
+end incrementor;
+
+architecture Behavioral of incrementor is
+
+begin
+
+process(incr,PCin)
+begin
+	if(incr = '1')then
+		PCplusOne <= PCin + '1';
+	else
+		PCplusOne <= PCin;
+	end if;
+end process;
+
+end Behavioral;

@@ -1,0 +1,28 @@
+Command line:
+   Peripheral1_sseg_FourDigit_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50586
+
+Sun Mar 01 21:02:09 2015
+
+
+ Elaboration Time: 0.093601 sec
+
+ Current Memory Usage: 1313.55 Meg
+
+ Total Signals          : 59
+ Total Nets             : 110
+ Total Signal Drivers   : 40
+ Total Blocks           : 10
+ Total Primitive Blocks : 7
+ Total Processes        : 25
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 501
+
+ Total Simulation Time: 0.109201 sec
+
+ Current Memory Usage: 998.941 Meg
+
+Sun Mar 01 21:04:05 2015
+

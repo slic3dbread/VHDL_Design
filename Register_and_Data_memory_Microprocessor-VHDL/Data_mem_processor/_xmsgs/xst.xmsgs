@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"T:\NickandCarterWednesday\Lab2_Feb_15th\InstructionMem.vhd" Line 43: <arg fmt="%s" index="1">memory</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"T:\NickandCarterWednesday\Lab2_Feb_15th\ALU_Behavioural.vhd" Line 53: Net &lt;<arg fmt="%s" index="1">xTemp[16]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"T:\NickandCarterWednesday\Lab2_Feb_15th\ALU_Behavioural.vhd" Line 54: Net &lt;<arg fmt="%s" index="1">yTemp[16]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"T:\NickandCarterWednesday\Lab2_Feb_15th\DataMem.vhd" Line 43: <arg fmt="%s" index="1">memory</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">T:\NickandCarterWednesday\Lab2_Feb_15th\Processor.vhd</arg>&quot; line <arg fmt="%s" index="2">254</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALU</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">xTemp&lt;16&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ALU_Behavioural</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">yTemp&lt;16&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ALU_Behavioural</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram__n0020</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram__n0037</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_memory</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_memory</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_temp_segment[3]_PWR_36_o_wide_mux_3_OUT</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_b</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PCRegister/q_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Processor</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory2</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory14</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory3</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory13</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory3</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory6</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory3</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory9</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory3</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory11</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory3</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory12</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory4</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory5</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">InstructMem/Mram_memory4</arg>&gt;, &lt;<arg fmt="%s" index="2">InstructMem/Mram_memory10</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

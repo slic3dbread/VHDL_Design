@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Four-Digit_7-Seg_Controller" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUTestBench - behavior H:|Second Year|ENGG3380|Labs|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU0 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU1 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU10 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU11 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU12 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU13 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU14 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU15 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU2 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU3 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU4 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU5 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU6 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU7 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU8 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU9 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU0 - ALU_1Bit - Structural/FA - FullAdder - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU1 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU10 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU11 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU12 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU13 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU14 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU15 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU2 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU3 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU4 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU5 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU6 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU7 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU8 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural H:|ENGG3380|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU9 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU0 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU1 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU10 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU11 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU12 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU13 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU14 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU15 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU2 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU3 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU4 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU5 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU6 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU7 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU8 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU9 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/Input20DigitsForSevenSeg - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|Input20DigitsForSevenSeg.vhd/Memory - singlePortMemory - Behavioral</ClosedNode>
+         <ClosedNode>/Seven - Behavioral T:|Lab2|Four-Digit_7-Seg_Controller|Seven-Seg_1-Digit_Display.vhd</ClosedNode>
+         <ClosedNode>/singlePortMemory - Behavioral T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|singlePortMemory.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Input20DigitsForSevenSeg - Structural (H:/Second Year/ENGG3380/Labs/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/Input20DigitsForSevenSeg.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000230000000020000000000000000000000000200000064ffffffff000000810000000300000002000002300000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Input20DigitsForSevenSeg - Structural (H:/Second Year/ENGG3380/Labs/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/Input20DigitsForSevenSeg.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a1000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d50000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>flashLeds_Test.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU0 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU0 - ALU_1Bit - Structural/FA - AdderSubtractor - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU1 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU10 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU11 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU12 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU13 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU14 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU15 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU2 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU3 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU4 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU5 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU6 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU7 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU8 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALUTestBench - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALUTestBench.vhd/uut - ALU_16Bit - Structural/ALU9 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU0 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU1 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU10 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU11 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU12 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU13 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU14 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU15 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU2 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU3 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU4 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU5 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU6 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU7 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU8 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/ALU_16Bit - Structural T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|ALU_16Bit.vhd/ALU9 - ALU_1Bit - Structural</ClosedNode>
+         <ClosedNode>/MemoryTB - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|MemoryTB.vhd</ClosedNode>
+         <ClosedNode>/SevSeg4DigitTB - behavior T:|Lab3 - RAM_REG_ALU|Four-Digit_7-Seg_Controller|SevSeg4DigitTB.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MemoryTB - behavior (T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/MemoryTB.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000012f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000012f0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>MemoryTB - behavior (T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/MemoryTB.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <CopyAdditionalFiles/>
+</Project>

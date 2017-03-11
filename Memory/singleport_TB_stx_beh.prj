@@ -1,0 +1,4 @@
+vhdl isim_temp "seven_seg.vhd"
+vhdl isim_temp "mem.vhd"
+vhdl isim_temp "singleport_memory.vhd"
+vhdl isim_temp "singleport_TB.vhd"

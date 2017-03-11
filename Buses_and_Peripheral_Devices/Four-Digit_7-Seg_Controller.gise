@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Four-Digit_7-Seg_Controller.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALUTestBench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALUTestBench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ALUTestBench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALUTestBench_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ALU_16Bit.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ALU_16Bit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ALU_16Bit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ALU_16Bit.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ALU_16Bit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ALU_16Bit.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ALU_16Bit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ALU_16Bit.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ALU_16Bit.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_16Bit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU_16Bit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ALU_16Bit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ALU_16Bit.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ALU_16Bit.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ALU_16Bit.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ALU_16Bit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ALU_16Bit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ALU_16Bit_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ALU_16Bit_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ALU_16Bit_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ALU_16Bit_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ALU_16Bit_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ALU_16Bit_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ALU_16Bit_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_16Bit_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ALU_16Bit_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ALU_16Bit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_1Bit_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Input20DigitsForSevenSeg.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Input20DigitsForSevenSeg.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Input20DigitsForSevenSeg.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Input20DigitsForSevenSeg.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Input20DigitsForSevenSeg.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Input20DigitsForSevenSeg.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Input20DigitsForSevenSeg.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Input20DigitsForSevenSeg.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Input20DigitsForSevenSeg.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Input20DigitsForSevenSeg.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Input20DigitsForSevenSeg.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Input20DigitsForSevenSeg.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Input20DigitsForSevenSeg.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Input20DigitsForSevenSeg.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Input20DigitsForSevenSeg.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Input20DigitsForSevenSeg.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Input20DigitsForSevenSeg.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Input20DigitsForSevenSeg.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Input20DigitsForSevenSeg.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Input20DigitsForSevenSeg.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Input20DigitsForSevenSeg_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Input20DigitsForSevenSeg_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Input20DigitsForSevenSeg_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Input20DigitsForSevenSeg_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Input20DigitsForSevenSeg_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Input20DigitsForSevenSeg_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Input20DigitsForSevenSeg_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Input20DigitsForSevenSeg_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Input20DigitsForSevenSeg_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Input20DigitsForSevenSeg_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Input20DigitsForSevenSeg_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Input20DigitsForSevenSeg_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Input20DigitsForSevenSeg_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Input20DigitsForSevenSeg_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Input20DigitsForSevenSeg_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LTComparator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Led_Test_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="flash_leds_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="input20digitsforsevenseg.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="input20digitsforsevenseg.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="input20digitsforsevenseg.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="senv_seg_SingleDigit_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="singlePortMemory.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="singlePortMemory.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="singlePortMemory.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="singlePortMemory.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="singlePortMemory.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="singlePortMemory.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="singlePortMemory.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="singlePortMemory.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="singlePortMemory.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="singlePortMemory_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="singlePortMemory_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="singlePortMemory_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1423624318" xil_pn:in_ck="-8493109794043272310" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1423624318">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALUTestBench.vhd"/>
+      <outfile xil_pn:name="ALU_16Bit.vhd"/>
+      <outfile xil_pn:name="ALU_1Bit.vhd"/>
+      <outfile xil_pn:name="AdderSubtractor.vhd"/>
+      <outfile xil_pn:name="BinLogic.vhd"/>
+      <outfile xil_pn:name="FourDigitSevenSegController.vhd"/>
+      <outfile xil_pn:name="FullAdder.vhd"/>
+      <outfile xil_pn:name="HalfAdder.vhd"/>
+      <outfile xil_pn:name="Input20DigitsForSevenSeg.vhd"/>
+      <outfile xil_pn:name="LTComparator.vhd"/>
+      <outfile xil_pn:name="Led_Test.vhd"/>
+      <outfile xil_pn:name="MemoryTB.vhd"/>
+      <outfile xil_pn:name="Mux8to1.vhd"/>
+      <outfile xil_pn:name="SevSeg4DigitTB.vhd"/>
+      <outfile xil_pn:name="SevenSegDisplay_1_Digit.vhd"/>
+      <outfile xil_pn:name="flashLeds_Test.vhd"/>
+      <outfile xil_pn:name="singlePortMemory.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1423620970" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6809489524992992593" xil_pn:start_ts="1423620970">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1423620970" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5088571107226767439" xil_pn:start_ts="1423620970">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1423620026" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8445560278875236941" xil_pn:start_ts="1423620026">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1423624318" xil_pn:in_ck="-8493109794043272310" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1423624318">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALUTestBench.vhd"/>
+      <outfile xil_pn:name="ALU_16Bit.vhd"/>
+      <outfile xil_pn:name="ALU_1Bit.vhd"/>
+      <outfile xil_pn:name="AdderSubtractor.vhd"/>
+      <outfile xil_pn:name="BinLogic.vhd"/>
+      <outfile xil_pn:name="FourDigitSevenSegController.vhd"/>
+      <outfile xil_pn:name="FullAdder.vhd"/>
+      <outfile xil_pn:name="HalfAdder.vhd"/>
+      <outfile xil_pn:name="Input20DigitsForSevenSeg.vhd"/>
+      <outfile xil_pn:name="LTComparator.vhd"/>
+      <outfile xil_pn:name="Led_Test.vhd"/>
+      <outfile xil_pn:name="MemoryTB.vhd"/>
+      <outfile xil_pn:name="Mux8to1.vhd"/>
+      <outfile xil_pn:name="SevSeg4DigitTB.vhd"/>
+      <outfile xil_pn:name="SevenSegDisplay_1_Digit.vhd"/>
+      <outfile xil_pn:name="flashLeds_Test.vhd"/>
+      <outfile xil_pn:name="singlePortMemory.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1423624321" xil_pn:in_ck="-8493109794043272310" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5545031417884531735" xil_pn:start_ts="1423624318">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALUTestBench_beh.prj"/>
+      <outfile xil_pn:name="ALUTestBench_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1423624321" xil_pn:in_ck="3588406969066712728" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6467647027263967082" xil_pn:start_ts="1423624321">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALUTestBench_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1423664574" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1423664574">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1423668007" xil_pn:in_ck="-8657579974579567116" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4269477657634720911" xil_pn:start_ts="1423668007">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

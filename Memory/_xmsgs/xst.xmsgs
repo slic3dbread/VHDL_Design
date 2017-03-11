@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dout_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleMemory</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_Z</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_memory</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">temp_signal_FSM_FFd5</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">singleport_memory</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">singleMemory/dout_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory20</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory19</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory18</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory17</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory15</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory14</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory13</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory12</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory11</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory10</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">singleMemory/Mram_memory16</arg>&gt;, &lt;<arg fmt="%s" index="2">singleMemory/Mram_memory9</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">singleMemory/dout_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;singleMemory/dout_14&gt; &lt;singleMemory/dout_13&gt; &lt;singleMemory/dout_12&gt; &lt;singleMemory/dout_11&gt; &lt;singleMemory/dout_10&gt; &lt;singleMemory/dout_9&gt; &lt;singleMemory/dout_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">singleMemory/dout_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;singleMemory/dout_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">singleMemory/dout_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">singleport_memory</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;singleMemory/dout_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

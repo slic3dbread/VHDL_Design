@@ -1,0 +1,28 @@
+Command line:
+   LTComparator_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  57822
+
+Tue Feb 10 21:16:02 2015
+
+
+ Elaboration Time: 0.093601 sec
+
+ Current Memory Usage: 1470.73 Meg
+
+ Total Signals          : 3
+ Total Nets             : 33
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 393
+
+ Total Simulation Time: 0.093601 sec
+
+ Current Memory Usage: 1470.73 Meg
+
+Tue Feb 10 21:16:08 2015
+

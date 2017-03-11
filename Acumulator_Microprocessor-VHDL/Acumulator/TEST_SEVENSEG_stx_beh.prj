@@ -1,0 +1,3 @@
+vhdl isim_temp "SevenSegDecoder.vhd"
+vhdl isim_temp "SevenSegController.vhd"
+vhdl isim_temp "TEST_SEVENSEG.vhd"

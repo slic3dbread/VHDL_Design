@@ -1,0 +1,4 @@
+vhdl work "SevenSegDisplay_1_Digit.vhd"
+vhdl work "Memory.vhd"
+vhdl work "FourDigitSevenSegController.vhd"
+vhdl work "Input20DigitsForSevenSeg.vhd"

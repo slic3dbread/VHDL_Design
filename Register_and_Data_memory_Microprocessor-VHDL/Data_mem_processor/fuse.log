@@ -1,0 +1,47 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "T:/NickandCarterWednesday/Lab2_Feb_15th/testBench_isim_beh.exe" -prj "T:/NickandCarterWednesday/Lab2_Feb_15th/testBench_beh.prj" "work.testBench" 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/SevenSegDecoder.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/shifter.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/SevenSegController.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/regFile.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/PCreg.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/MUX_2to1_3bit.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/MUX_2to1_16bit.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/InstructionMem.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/incrementor.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/DataMem.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/Controller.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/ALU_Behavioural.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/Processor.vhd" into library work
+Parsing VHDL file "T:/NickandCarterWednesday/Lab2_Feb_15th/testBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling architecture description of entity PCreg [pcreg_default]
+Compiling architecture behavioral of entity incrementor [incrementor_default]
+Compiling architecture behavioral of entity shifter [shifter_default]
+Compiling architecture behavioural of entity InstructionMem [\InstructionMem(16,8)\]
+Compiling architecture behavioral of entity ALU_Behavioural [\ALU_Behavioural(16)\]
+Compiling architecture behavioral of entity regFile [\regFile(16,3)\]
+Compiling architecture behavioural of entity DataMem [\DataMem(16,8)\]
+Compiling architecture behavioral of entity MUX_2to1_16bit [mux_2to1_16bit_default]
+Compiling architecture behavioral of entity MUX_2to1_3bit [mux_2to1_3bit_default]
+Compiling architecture behavioral of entity Controller [controller_default]
+Compiling architecture behavioral of entity SevenSegDecoder [sevensegdecoder_default]
+Compiling architecture behavioral of entity SevenSegController [sevensegcontroller_default]
+Compiling architecture behavioral of entity Processor [processor_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable T:/NickandCarterWednesday/Lab2_Feb_15th/testBench_isim_beh.exe
+Fuse Memory Usage: 36880 KB
+Fuse CPU Usage: 514 ms

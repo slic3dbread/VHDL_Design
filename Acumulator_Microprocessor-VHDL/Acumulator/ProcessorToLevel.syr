@@ -1,0 +1,654 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: ProcessorToLevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ProcessorToLevel.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ProcessorToLevel"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : ProcessorToLevel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "T:\lab1nick\SevenSegDecoder.vhd" into library work
+Parsing entity <SevenSegDecoder>.
+Parsing architecture <Behavioral> of entity <sevensegdecoder>.
+Parsing VHDL file "T:\lab1nick\Yreg.vhd" into library work
+Parsing entity <Yreg>.
+Parsing architecture <description> of entity <yreg>.
+Parsing VHDL file "T:\lab1nick\SevenSegController.vhd" into library work
+Parsing entity <SevenSegController>.
+Parsing architecture <Behavioral> of entity <sevensegcontroller>.
+Parsing VHDL file "T:\lab1nick\PCreg.vhd" into library work
+Parsing entity <PCreg>.
+Parsing architecture <description> of entity <pcreg>.
+Parsing VHDL file "T:\lab1nick\lab1mem.vhd" into library work
+Parsing entity <lab1mem>.
+Parsing architecture <Behavioural> of entity <lab1mem>.
+Parsing VHDL file "T:\lab1nick\ALU_Behavioural.vhd" into library work
+Parsing entity <ALU_Behavioural>.
+Parsing architecture <Behavioral> of entity <alu_behavioural>.
+Parsing VHDL file "T:\lab1nick\ProcessorToLevel.vhd" into library work
+Parsing entity <ProcessorToLevel>.
+Parsing architecture <Behavioral> of entity <processortolevel>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <ProcessorToLevel> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PCreg> (architecture <description>) from library <work>.
+
+Elaborating entity <Yreg> (architecture <description>) from library <work>.
+
+Elaborating entity <ALU_Behavioural> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "T:\lab1nick\ALU_Behavioural.vhd" Line 95: xsignext should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "T:\lab1nick\ALU_Behavioural.vhd" Line 98: xsignext should be on the sensitivity list of the process
+WARNING:HDLCompiler:634 - "T:\lab1nick\ALU_Behavioural.vhd" Line 53: Net <xTemp[16]> does not have a driver.
+WARNING:HDLCompiler:634 - "T:\lab1nick\ALU_Behavioural.vhd" Line 54: Net <yTemp[16]> does not have a driver.
+
+Elaborating entity <lab1mem> (architecture <Behavioural>) with generics from library <work>.
+
+Elaborating entity <SevenSegController> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SevenSegDecoder> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "T:\lab1nick\SevenSegDecoder.vhd" Line 59. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:634 - "T:\lab1nick\ProcessorToLevel.vhd" Line 104: Net <PCinData[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "T:\lab1nick\ProcessorToLevel.vhd" Line 109: Net <PCinSig> does not have a driver.
+WARNING:HDLCompiler:634 - "T:\lab1nick\ProcessorToLevel.vhd" Line 110: Net <itermidateMDRout[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "T:\lab1nick\ProcessorToLevel.vhd" Line 114: Net <writeSigSig> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ProcessorToLevel>.
+    Related source file is "T:\lab1nick\ProcessorToLevel.vhd".
+WARNING:Xst:647 - Input <button> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <inputSwitches<4:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "T:\lab1nick\ProcessorToLevel.vhd" line 137: Output port <c_out> of the instance <ALU> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\lab1nick\ProcessorToLevel.vhd" line 137: Output port <overflow> of the instance <ALU> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <PCinData> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <itermidateMDRout> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <PCinSig> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <writeSigSig> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <clkdiv>.
+    Found 1-bit adder for signal <clkdiv[0]_PWR_5_o_add_0_OUT<0>> created at line 125.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 D-type flip-flop(s).
+Unit <ProcessorToLevel> synthesized.
+
+Synthesizing Unit <PCreg>.
+    Related source file is "T:\lab1nick\PCreg.vhd".
+    Found 16-bit register for signal <q>.
+    Found 16-bit register for signal <currentPC[15]_dff_1_OUT>.
+    Found 16-bit adder for signal <currentPC[15]_GND_6_o_add_0_OUT> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <PCreg> synthesized.
+
+Synthesizing Unit <Yreg>.
+    Related source file is "T:\lab1nick\Yreg.vhd".
+    Found 16-bit register for signal <q>.
+    Found 16-bit register for signal <d[15]_dff_0_OUT>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Yreg> synthesized.
+
+Synthesizing Unit <ALU_Behavioural>.
+    Related source file is "T:\lab1nick\ALU_Behavioural.vhd".
+        Dwidth = 16
+WARNING:Xst:2935 - Signal 'xTemp<16>', unconnected in block 'ALU_Behavioural', is tied to its initial value (0).
+WARNING:Xst:2935 - Signal 'yTemp<16>', unconnected in block 'ALU_Behavioural', is tied to its initial value (0).
+    Found 17-bit adder for signal <xTemp[16]_yTemp[16]_add_6_OUT> created at line 90.
+    Found 17-bit adder for signal <xSignExt[16]_ySignExt[16]_add_9_OUT> created at line 98.
+    Found 17-bit subtractor for signal <GND_10_o_GND_10_o_sub_9_OUT<16:0>> created at line 95.
+    Found 17-bit 7-to-1 multiplexer for signal <zTemp> created at line 84.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  11 Multiplexer(s).
+Unit <ALU_Behavioural> synthesized.
+
+Synthesizing Unit <lab1mem>.
+    Related source file is "T:\lab1nick\lab1mem.vhd".
+        Dwidth = 16
+        Awidth = 8
+    Found 256x16-bit single-port RAM <Mram_memory> for signal <memory>.
+    Found 16-bit register for signal <dout>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <lab1mem> synthesized.
+
+Synthesizing Unit <SevenSegController>.
+    Related source file is "T:\lab1nick\SevenSegController.vhd".
+    Found 4-bit register for signal <temp_digit>.
+    Found 4-bit register for signal <temp_segment>.
+    Found 9-bit register for signal <clkdiv>.
+    Found 9-bit adder for signal <clkdiv[8]_GND_13_o_add_0_OUT> created at line 55.
+    Found 16x4-bit Read Only RAM for signal <temp_segment[3]_PWR_11_o_wide_mux_3_OUT>
+    HDL ADVISOR - Describing an operational reset or an explicit power-up state for register <temp_segment> would allow inference of a finite state machine and as consequence better performance and smaller area.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   7 Multiplexer(s).
+Unit <SevenSegController> synthesized.
+
+Synthesizing Unit <SevenSegDecoder>.
+    Related source file is "T:\lab1nick\SevenSegDecoder.vhd".
+    Found 16x8-bit Read Only RAM for signal <b>
+    Summary:
+	inferred   1 RAM(s).
+Unit <SevenSegDecoder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x4-bit single-port Read Only RAM                    : 1
+ 16x8-bit single-port Read Only RAM                    : 1
+ 256x16-bit single-port RAM                            : 1
+# Adders/Subtractors                                   : 4
+ 1-bit adder                                           : 1
+ 16-bit adder                                          : 1
+ 17-bit addsub                                         : 1
+ 9-bit adder                                           : 1
+# Registers                                            : 9
+ 1-bit register                                        : 1
+ 16-bit register                                       : 5
+ 4-bit register                                        : 2
+ 9-bit register                                        : 1
+# Multiplexers                                         : 18
+ 1-bit 2-to-1 multiplexer                              : 2
+ 17-bit 2-to-1 multiplexer                             : 9
+ 4-bit 2-to-1 multiplexer                              : 7
+# Xors                                                 : 2
+ 1-bit xor2                                            : 1
+ 17-bit xor2                                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ProcessorToLevel>.
+The following registers are absorbed into counter <clkdiv_0>: 1 register on signal <clkdiv_0>.
+INFO:Xst:3226 - The RAM <Mem/Mram_memory> will be implemented as a BLOCK RAM, absorbing the following register(s): <Mem/dout>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 16-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clkdiv>        | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PCoutSig<7:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <memDataSig>    |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <ProcessorToLevel> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SevenSegController>.
+The following registers are absorbed into counter <clkdiv>: 1 register on signal <clkdiv>.
+INFO:Xst:3231 - The small RAM <Mram_temp_segment[3]_PWR_11_o_wide_mux_3_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 4-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <temp_segment>  |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <SevenSegController> synthesized (advanced).
+
+Synthesizing (advanced) Unit <SevenSegDecoder>.
+INFO:Xst:3231 - The small RAM <Mram_b> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <a>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <b>             |          |
+    -----------------------------------------------------------------------
+Unit <SevenSegDecoder> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x4-bit single-port distributed Read Only RAM        : 1
+ 16x8-bit single-port distributed Read Only RAM        : 1
+ 256x16-bit single-port block RAM                      : 1
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 17-bit addsub                                         : 1
+# Counters                                             : 2
+ 1-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 72
+ Flip-Flops                                            : 72
+# Multiplexers                                         : 18
+ 1-bit 2-to-1 multiplexer                              : 2
+ 17-bit 2-to-1 multiplexer                             : 9
+ 4-bit 2-to-1 multiplexer                              : 7
+# Xors                                                 : 2
+ 1-bit xor2                                            : 1
+ 17-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <PCRegister/_i000004_8> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_9> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_10> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_11> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_12> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_13> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_14> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/_i000004_15> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_8> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_9> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_10> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_11> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_12> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_13> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_14> of sequential type is unconnected in block <ProcessorToLevel>.
+WARNING:Xst:2677 - Node <PCRegister/q_15> of sequential type is unconnected in block <ProcessorToLevel>.
+
+Optimizing unit <Yreg> ...
+
+Optimizing unit <ProcessorToLevel> ...
+
+Optimizing unit <SevenSegController> ...
+
+Optimizing unit <ALU_Behavioural> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ProcessorToLevel, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ProcessorToLevel.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 134
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 15
+#      LUT2                        : 1
+#      LUT4                        : 11
+#      LUT5                        : 28
+#      LUT6                        : 11
+#      MUXCY                       : 30
+#      VCC                         : 1
+#      XORCY                       : 33
+# FlipFlops/Latches                : 66
+#      FD                          : 66
+# RAMS                             : 1
+#      RAMB8BWER                   : 1
+# Clock Buffers                    : 4
+#      BUFG                        : 1
+#      BUFGP                       : 3
+# IO Buffers                       : 12
+#      OBUF                        : 12
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              66  out of  18224     0%  
+ Number of Slice LUTs:                   69  out of   9112     0%  
+    Number used as Logic:                69  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     88
+   Number with an unused Flip Flop:      22  out of     88    25%  
+   Number with an unused LUT:            19  out of     88    21%  
+   Number of fully used LUT-FF pairs:    47  out of     88    53%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          23
+ Number of bonded IOBs:                  15  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                4  out of     16    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)       | Load  |
+-----------------------------------+-----------------------------+-------+
+inputSwitches<0>                   | BUFGP                       | 8     |
+clkdiv_0                           | BUFG                        | 25    |
+mclk                               | BUFGP                       | 10    |
+ledoutput/clkdiv_8                 | NONE(ledoutput/temp_digit_3)| 8     |
+inputSwitches<1>                   | BUFGP                       | 16    |
+-----------------------------------+-----------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.700ns (Maximum Frequency: 370.329MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.821ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mclk'
+  Clock period: 1.913ns (frequency: 522.821MHz)
+  Total number of paths / destination ports: 46 / 10
+-------------------------------------------------------------------------
+Delay:               1.913ns (Levels of Logic = 1)
+  Source:            clkdiv_0 (FF)
+  Destination:       clkdiv_0 (FF)
+  Source Clock:      mclk rising
+  Destination Clock: mclk rising
+
+  Data Path: clkdiv_0 to clkdiv_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.447   0.579  clkdiv_0 (clkdiv_0)
+     INV:I->O              1   0.206   0.579  Mcount_clkdiv_0_xor<0>11_INV_0 (Result)
+     FD:D                      0.102          clkdiv_0
+    ----------------------------------------
+    Total                      1.913ns (0.755ns logic, 1.158ns route)
+                                       (39.5% logic, 60.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ledoutput/clkdiv_8'
+  Clock period: 2.700ns (frequency: 370.329MHz)
+  Total number of paths / destination ports: 44 / 8
+-------------------------------------------------------------------------
+Delay:               2.700ns (Levels of Logic = 2)
+  Source:            ledoutput/temp_segment_0 (FF)
+  Destination:       ledoutput/temp_digit_3 (FF)
+  Source Clock:      ledoutput/clkdiv_8 rising
+  Destination Clock: ledoutput/clkdiv_8 rising
+
+  Data Path: ledoutput/temp_segment_0 to ledoutput/temp_digit_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.447   1.161  ledoutput/temp_segment_0 (ledoutput/temp_segment_0)
+     LUT6:I3->O            1   0.205   0.580  ledoutput/Mmux_temp_segment[3]_input[3]_wide_mux_2_OUT41 (ledoutput/Mmux_temp_segment[3]_input[3]_wide_mux_2_OUT4)
+     LUT6:I5->O            1   0.205   0.000  ledoutput/Mmux_temp_segment[3]_input[3]_wide_mux_2_OUT42 (ledoutput/temp_segment[3]_input[3]_wide_mux_2_OUT<1>)
+     FD:D                      0.102          ledoutput/temp_digit_1
+    ----------------------------------------
+    Total                      2.700ns (0.959ns logic, 1.741ns route)
+                                       (35.5% logic, 64.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkdiv_0'
+  Clock period: 1.413ns (frequency: 707.589MHz)
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Delay:               1.413ns (Levels of Logic = 0)
+  Source:            PCRegister/q_7 (FF)
+  Destination:       Mem/Mram_memory (RAM)
+  Source Clock:      clkdiv_0 rising
+  Destination Clock: clkdiv_0 rising
+
+  Data Path: PCRegister/q_7 to Mem/Mram_memory
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  PCRegister/q_7 (PCRegister/q_7)
+     RAMB8BWER:ADDRAWRADDR11        0.350          Mem/Mram_memory
+    ----------------------------------------
+    Total                      1.413ns (0.797ns logic, 0.616ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ledoutput/clkdiv_8'
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Offset:              4.821ns (Levels of Logic = 2)
+  Source:            ledoutput/temp_digit_1 (FF)
+  Destination:       leds<6> (PAD)
+  Source Clock:      ledoutput/clkdiv_8 rising
+
+  Data Path: ledoutput/temp_digit_1 to leds<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.447   1.021  ledoutput/temp_digit_1 (ledoutput/temp_digit_1)
+     LUT4:I0->O            1   0.203   0.579  ledoutput/decoder/Mram_b61 (leds_6_OBUF)
+     OBUF:I->O                 2.571          leds_6_OBUF (leds<6>)
+    ----------------------------------------
+    Total                      4.821ns (3.221ns logic, 1.600ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clkdiv_0
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+clkdiv_0        |    1.413|         |         |         |
+inputSwitches<0>|    1.128|         |         |         |
+inputSwitches<1>|    1.128|         |         |         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock inputSwitches<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkdiv_0       |    1.837|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock inputSwitches<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkdiv_0       |    4.395|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ledoutput/clkdiv_8
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+clkdiv_0          |    2.703|         |         |         |
+ledoutput/clkdiv_8|    2.700|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    1.913|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.06 secs
+ 
+--> 
+
+Total memory usage is 260140 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   32 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

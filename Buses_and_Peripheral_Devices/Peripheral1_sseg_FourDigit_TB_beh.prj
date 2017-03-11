@@ -1,0 +1,6 @@
+vhdl work "sevensegdecoder.vhd"
+vhdl work "FourDigitSevenSegController.vhd"
+vhdl work "SevenSegDisplay.vhd"
+vhdl work "DataRegister.vhd"
+vhdl work "ssegwrapper.vhd"
+vhdl work "Peripheral1_sseg_FourDigit_TB.vhd"

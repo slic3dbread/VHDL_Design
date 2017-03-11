@@ -1,0 +1,8 @@
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "Mux8to1.vhd"
+vhdl work "BinLogic.vhd"
+vhdl work "AdderSubtractor.vhd"
+vhdl work "LTComparator.vhd"
+vhdl work "ALU_1Bit.vhd"
+vhdl work "ALU_16Bit.vhd"

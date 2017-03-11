@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/singlePortMemory.xst" -ofn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/singlePortMemory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc singlePortMemoryUCF.ucf -p xc6slx16-csg324-3 "singlePortMemory.ngc" singlePortMemory.ngd  
+xst -intstyle ise -ifn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/singlePortMemory.xst" -ofn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/singlePortMemory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc singlePortMemoryUCF.ucf -p xc6slx16-csg324-3 "singlePortMemory.ngc" singlePortMemory.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc singlePortMemoryUCF.ucf -p xc6slx16-csg324-3 "singlePortMemory.ngc" singlePortMemory.ngd  

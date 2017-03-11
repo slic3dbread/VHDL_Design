@@ -1,0 +1,2 @@
+vhdl isim_temp "ALU_Behavioural.vhd"
+vhdl isim_temp "ALU_TEST.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "T:/Lab3_3380/Lab3_memory/singleport_TB_isim_beh.exe" -prj "T:/Lab3_3380/Lab3_memory/singleport_TB_beh.prj" "work.singleport_TB" 

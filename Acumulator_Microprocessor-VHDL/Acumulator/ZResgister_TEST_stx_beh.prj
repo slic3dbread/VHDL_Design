@@ -1,0 +1,2 @@
+vhdl isim_temp "Yreg.vhd"
+vhdl isim_temp "ZResgister_TEST.vhd"

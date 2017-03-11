@@ -1,0 +1,64 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to H:/Lab3_3380/lab3_ALU_behavioural/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to H:/Lab3_3380/lab3_ALU_behavioural/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 62: <ztemp> is not declared.
+ERROR:HDLCompiler:620 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 64: Near signed ; type conversion does not match type std_logic_vector
+ERROR:HDLCompiler:620 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 65: Near signed ; type conversion does not match type std_logic_vector
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 66: <ztemp> is not declared.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 67: <ztemp> is not declared.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 69: <ztemp> is not declared.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 76: <ztemp> is not declared.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 81: <c_out> is not declared.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 82: <ztemp> is not declared.
+ERROR:HDLCompiler:69 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 83: <ztemp> is not declared.
+ERROR:HDLCompiler:854 - "\\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd" Line 44: Unit <behavioral> ignored due to previous errors.
+VHDL file \\south.cfs.uoguelph.ca\soe-undergradhome$\bmcconvi\Lab3_3380\lab3_ALU_behavioural\alu.vhd ignored due to errors
+--> 
+
+Total memory usage is 183688 kilobytes
+
+Number of errors   :   11 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

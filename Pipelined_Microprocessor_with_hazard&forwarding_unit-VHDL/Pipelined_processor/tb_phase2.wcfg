@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="T:/Lab2_Feb_28th - Phase 2/testBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/mclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mclk</obj_property>
+      <obj_property name="ObjectShortName">mclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/PCRegister/q" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      <obj_property name="label">Pc Reg out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/instructReg/q" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      <obj_property name="label">Instruction reg out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/incr/pcin" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pcin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcin[15:0]</obj_property>
+      <obj_property name="label">Incrementer in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/incr/pcplusone" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pcplusone[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplusone[15:0]</obj_property>
+      <obj_property name="label">Incrementer out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/incr/stall" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+      <obj_property name="label">incrementer stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/incr/incr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">incr</obj_property>
+      <obj_property name="ObjectShortName">incr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/hazCtrl/stall" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+      <obj_property name="label">hazard stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/hazCtrl/if_idrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">if_idrs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">if_idrs[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/hazCtrl/if_idrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">if_idrt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">if_idrt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/hazCtrl/id_exrt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">id_exrt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">id_exrt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/InstructMem/dout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="label">Instruction reg out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/InstructMem/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[0:255]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:255]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/registers/memory" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">memory[0:7]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:7]</obj_property>
+      <obj_property name="label">register memory</obj_property>
+   </wvobject>
+</wave_config>

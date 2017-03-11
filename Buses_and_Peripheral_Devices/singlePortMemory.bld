@@ -1,0 +1,280 @@
+Release 14.6 ngdbuild P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc singlePortMemoryUCF.ucf -p
+xc6slx16-csg324-3 singlePortMemory.ngc singlePortMemory.ngd
+
+Reading NGO file "T:/Lab3 -
+RAM_REG_ALU/Four-Digit_7-Seg_Controller/singlePortMemory.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "singlePortMemoryUCF.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <Net BTNS LOC=B8  ;>
+   [singlePortMemoryUCF.ucf(14)]: NET "BTNS" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net BTNS LOC=B8  ;> [singlePortMemoryUCF.ucf(14)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net BTNU LOC=A8  ;>
+   [singlePortMemoryUCF.ucf(15)]: NET "BTNU" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net BTNU LOC=A8  ;> [singlePortMemoryUCF.ucf(15)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net BTNL LOC=C4  ;>
+   [singlePortMemoryUCF.ucf(16)]: NET "BTNL" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net BTNL LOC=C4  ;> [singlePortMemoryUCF.ucf(16)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net BTND LOC=C9  ;>
+   [singlePortMemoryUCF.ucf(17)]: NET "BTND" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net BTND LOC=C9  ;> [singlePortMemoryUCF.ucf(17)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net BTNR LOC=D9  ;>
+   [singlePortMemoryUCF.ucf(18)]: NET "BTNR" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net BTNR LOC=D9  ;> [singlePortMemoryUCF.ucf(18)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(0) LOC=T10  ;>
+   [singlePortMemoryUCF.ucf(22)]: NET "SW(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(0) LOC=T10  ;> [singlePortMemoryUCF.ucf(22)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(1) LOC=T9   ;>
+   [singlePortMemoryUCF.ucf(23)]: NET "SW(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(1) LOC=T9   ;> [singlePortMemoryUCF.ucf(23)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(2) LOC=V9   ;>
+   [singlePortMemoryUCF.ucf(24)]: NET "SW(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(2) LOC=V9   ;> [singlePortMemoryUCF.ucf(24)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(3) LOC=M8   ;>
+   [singlePortMemoryUCF.ucf(25)]: NET "SW(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(3) LOC=M8   ;> [singlePortMemoryUCF.ucf(25)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(4) LOC=N8   ;>
+   [singlePortMemoryUCF.ucf(26)]: NET "SW(4)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(4) LOC=N8   ;> [singlePortMemoryUCF.ucf(26)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(5) LOC=U8   ;>
+   [singlePortMemoryUCF.ucf(27)]: NET "SW(5)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(5) LOC=U8   ;> [singlePortMemoryUCF.ucf(27)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(6) LOC=V8   ;>
+   [singlePortMemoryUCF.ucf(28)]: NET "SW(6)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(6) LOC=V8   ;> [singlePortMemoryUCF.ucf(28)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net SW(7) LOC=T5   ;>
+   [singlePortMemoryUCF.ucf(29)]: NET "SW(7)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net SW(7) LOC=T5   ;> [singlePortMemoryUCF.ucf(29)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(0) LOC=T17   ;>
+   [singlePortMemoryUCF.ucf(33)]: NET "display(0)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(0) LOC=T17   ;> [singlePortMemoryUCF.ucf(33)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(1) LOC=T18   ;>
+   [singlePortMemoryUCF.ucf(34)]: NET "display(1)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(1) LOC=T18   ;> [singlePortMemoryUCF.ucf(34)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(2) LOC=U17   ;>
+   [singlePortMemoryUCF.ucf(35)]: NET "display(2)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(2) LOC=U17   ;> [singlePortMemoryUCF.ucf(35)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(3) LOC=U18   ;>
+   [singlePortMemoryUCF.ucf(36)]: NET "display(3)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(3) LOC=U18   ;> [singlePortMemoryUCF.ucf(36)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(4) LOC=M14   ;>
+   [singlePortMemoryUCF.ucf(37)]: NET "display(4)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(4) LOC=M14   ;> [singlePortMemoryUCF.ucf(37)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(5) LOC=N14   ;>
+   [singlePortMemoryUCF.ucf(38)]: NET "display(5)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(5) LOC=N14   ;> [singlePortMemoryUCF.ucf(38)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(6) LOC=L14   ;>
+   [singlePortMemoryUCF.ucf(39)]: NET "display(6)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(6) LOC=L14   ;> [singlePortMemoryUCF.ucf(39)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net display(7) LOC=M13   ;>
+   [singlePortMemoryUCF.ucf(40)]: NET "display(7)" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net display(7) LOC=M13   ;> [singlePortMemoryUCF.ucf(40)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net DP(0) LOC=N16  ;>
+   [singlePortMemoryUCF.ucf(42)]: NET "DP(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net DP(0) LOC=N16  ;> [singlePortMemoryUCF.ucf(42)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net DP(1) LOC=N15  ;>
+   [singlePortMemoryUCF.ucf(43)]: NET "DP(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net DP(1) LOC=N15  ;> [singlePortMemoryUCF.ucf(43)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net DP(2) LOC=P18  ;>
+   [singlePortMemoryUCF.ucf(44)]: NET "DP(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net DP(2) LOC=P18  ;> [singlePortMemoryUCF.ucf(44)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net DP(3) LOC=P17  ;>
+   [singlePortMemoryUCF.ucf(45)]: NET "DP(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net DP(3) LOC=P17  ;> [singlePortMemoryUCF.ucf(45)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <Net mclk LOC=V10       ;>
+   [singlePortMemoryUCF.ucf(50)]: NET "mclk" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<Net mclk LOC=V10       ;> [singlePortMemoryUCF.ucf(50)]' could not be found
+   and so the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    26
+  Number of warnings:  26
+
+Total memory usage is 162180 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "singlePortMemory.bld"...

@@ -1,0 +1,22 @@
+Net lights(0) LOC=T17;//a segment
+Net lights(1) LOC=T18;//b segment
+Net lights(2) LOC=U17;//c segment
+Net lights(3) LOC=U18;//d segment
+Net lights(4) LOC=M14;//e segment
+Net lights(5) LOC=N14;//f segment
+Net lights(6) LOC=L14;//g segment
+Net lights(7) LOC=M13;//decimal point
+
+Net Out_signal(0) LOC=N16;// first LED
+Net Out_signal(1) LOC=N15;// second LED
+Net Out_signal(2) LOC=P18;// third LED
+Net Out_signal(3) LOC=P17;// fourth LED
+
+NET Si(0) LOC = T10; //Buttons
+NET Si(1) LOC = T9; 
+NET Si(2) LOC = V9; 
+NET Si(3) LOC = M8;
+
+NET WriE LOC = T5;
+
+NET mclk LOC = V10; //clock

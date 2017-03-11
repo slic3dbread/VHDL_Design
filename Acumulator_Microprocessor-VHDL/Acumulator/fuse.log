@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o T:/lab1nick/processortest_isim_beh.exe -prj T:/lab1nick/processortest_beh.prj work.processortest 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "T:/lab1nick/SevenSegDecoder.vhd" into library work
+Parsing VHDL file "T:/lab1nick/Yreg.vhd" into library work
+Parsing VHDL file "T:/lab1nick/SevenSegController.vhd" into library work
+Parsing VHDL file "T:/lab1nick/PCreg.vhd" into library work
+Parsing VHDL file "T:/lab1nick/lab1mem.vhd" into library work
+Parsing VHDL file "T:/lab1nick/ALU_Behavioural.vhd" into library work
+Parsing VHDL file "T:/lab1nick/ProcessorToLevel.vhd" into library work
+Parsing VHDL file "T:/lab1nick/processortest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture description of entity PCreg [pcreg_default]
+Compiling architecture description of entity Yreg [yreg_default]
+Compiling architecture behavioral of entity ALU_Behavioural [\ALU_Behavioural(16)\]
+Compiling architecture behavioural of entity lab1mem [\lab1mem(16,8)\]
+Compiling architecture behavioral of entity SevenSegDecoder [sevensegdecoder_default]
+Compiling architecture behavioral of entity SevenSegController [sevensegcontroller_default]
+Compiling architecture behavioral of entity ProcessorToLevel [processortolevel_default]
+Compiling architecture behavior of entity processortest
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable T:/lab1nick/processortest_isim_beh.exe
+Fuse Memory Usage: 33600 KB
+Fuse CPU Usage: 483 ms

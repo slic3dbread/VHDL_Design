@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=T:\lab1nick\ProcessorToLevel.ncd
+OUTFILE=T:\lab1nick\ProcessorToLevel.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=T:\lab1nick
+LICENSE=ISE
+USER_INFO=206667002_206666006_210636407_704

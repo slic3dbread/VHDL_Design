@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/ALU_16Bit.xst" -ofn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/ALU_16Bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "ALU_16Bit.ngc" ALU_16Bit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_16Bit_map.ncd ALU_16Bit.ngd ALU_16Bit.pcf 
+par -w -intstyle ise -ol high -mt off ALU_16Bit_map.ncd ALU_16Bit.ncd ALU_16Bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_16Bit.twx ALU_16Bit.ncd -o ALU_16Bit.twr ALU_16Bit.pcf 
+xst -intstyle ise -ifn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/ALU_16Bit.xst" -ofn "T:/Lab3 - RAM_REG_ALU/Four-Digit_7-Seg_Controller/ALU_16Bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "ALU_16Bit.ngc" ALU_16Bit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ALU_16Bit_map.ncd ALU_16Bit.ngd ALU_16Bit.pcf 
+par -w -intstyle ise -ol high -mt off ALU_16Bit_map.ncd ALU_16Bit.ncd ALU_16Bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_16Bit.twx ALU_16Bit.ncd -o ALU_16Bit.twr ALU_16Bit.pcf 

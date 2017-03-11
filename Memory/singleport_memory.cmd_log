@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "H:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "H:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SinglePortUCF.ucf -p xc6slx16-csg324-3 singleport_memory.ngc singleport_memory.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o singleport_memory_map.ncd singleport_memory.ngd singleport_memory.pcf 
+par -w -intstyle ise -ol high -mt off singleport_memory_map.ncd singleport_memory.ncd singleport_memory.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singleport_memory.twx singleport_memory.ncd -o singleport_memory.twr singleport_memory.pcf -ucf SinglePortUCF.ucf 
+bitgen -intstyle ise -f singleport_memory.ut singleport_memory.ncd 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SinglePortUCF.ucf -p xc6slx16-csg324-3 singleport_memory.ngc singleport_memory.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o singleport_memory_map.ncd singleport_memory.ngd singleport_memory.pcf 
+par -w -intstyle ise -ol high -mt off singleport_memory_map.ncd singleport_memory.ncd singleport_memory.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singleport_memory.twx singleport_memory.ncd -o singleport_memory.twr singleport_memory.pcf -ucf SinglePortUCF.ucf 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SinglePortUCF.ucf -p xc6slx16-csg324-3 singleport_memory.ngc singleport_memory.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o singleport_memory_map.ncd singleport_memory.ngd singleport_memory.pcf 
+par -w -intstyle ise -ol high -mt off singleport_memory_map.ncd singleport_memory.ncd singleport_memory.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singleport_memory.twx singleport_memory.ncd -o singleport_memory.twr singleport_memory.pcf -ucf SinglePortUCF.ucf 
+bitgen -intstyle ise -f singleport_memory.ut singleport_memory.ncd 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+xst -intstyle ise -ifn "T:/Lab3_3380/Lab3_memory/singleport_memory.xst" -ofn "T:/Lab3_3380/Lab3_memory/singleport_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SinglePortUCF.ucf -p xc6slx16-csg324-3 singleport_memory.ngc singleport_memory.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SinglePortUCF.ucf -p xc6slx16-csg324-3 singleport_memory.ngc singleport_memory.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o singleport_memory_map.ncd singleport_memory.ngd singleport_memory.pcf 
+par -w -intstyle ise -ol high -mt off singleport_memory_map.ncd singleport_memory.ncd singleport_memory.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml singleport_memory.twx singleport_memory.ncd -o singleport_memory.twr singleport_memory.pcf -ucf SinglePortUCF.ucf 
+bitgen -intstyle ise -f singleport_memory.ut singleport_memory.ncd 

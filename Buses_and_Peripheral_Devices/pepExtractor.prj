@@ -1,0 +1,5 @@
+work	"DataRegister.vhd"
+work	"FourDigitSevenSegController.vhd"
+work	"SevenSegDisplay.vhd"
+work	"sevensegdecoder.vhd"
+work	"ssegwrapper.vhd"

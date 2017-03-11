@@ -1,0 +1,3 @@
+vhdl work "seven_seg.vhd"
+vhdl work "mem.vhd"
+vhdl work "singleport_memory.vhd"

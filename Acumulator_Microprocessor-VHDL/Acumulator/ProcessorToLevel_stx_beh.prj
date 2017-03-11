@@ -1,0 +1,7 @@
+vhdl isim_temp "SevenSegDecoder.vhd"
+vhdl isim_temp "Yreg.vhd"
+vhdl isim_temp "SevenSegController.vhd"
+vhdl isim_temp "PCreg.vhd"
+vhdl isim_temp "lab1mem.vhd"
+vhdl isim_temp "ALU_Behavioural.vhd"
+vhdl isim_temp "ProcessorToLevel.vhd"

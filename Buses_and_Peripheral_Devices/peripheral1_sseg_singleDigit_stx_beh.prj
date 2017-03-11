@@ -1,0 +1,6 @@
+vhdl isim_temp "sevensegdecoder.vhd"
+vhdl isim_temp "FourDigitSevenSegController.vhd"
+vhdl isim_temp "SevenSegDisplay.vhd"
+vhdl isim_temp "DataRegister.vhd"
+vhdl isim_temp "ssegwrapper.vhd"
+vhdl isim_temp "peripheral1_sseg_singleDigit.vhd"

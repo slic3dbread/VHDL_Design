@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB_isim_beh.exe" -prj "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB_beh.prj" "Peripheral1_sseg_FourDigit_TB" 

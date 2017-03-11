@@ -1,0 +1,29 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB_isim_beh.exe -prj T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB_beh.prj Peripheral1_sseg_FourDigit_TB 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/sevensegdecoder.vhd" into library work
+Parsing VHDL file "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/FourDigitSevenSegController.vhd" into library work
+Parsing VHDL file "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/SevenSegDisplay.vhd" into library work
+Parsing VHDL file "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/DataRegister.vhd" into library work
+Parsing VHDL file "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/ssegwrapper.vhd" into library work
+Parsing VHDL file "T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity DataRegister [dataregister_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity FourDigitSevenSegController [fourdigitsevensegcontroller_defa...]
+Compiling architecture behavioral of entity SevenSegDecoder [sevensegdecoder_default]
+Compiling architecture structural of entity SevenSegDisplay [sevensegdisplay_default]
+Compiling architecture structural of entity ssegwrapper [\ssegwrapper(8,8,('0','0','0','0...]
+Compiling architecture behavior of entity peripheral1_sseg_fourdigit_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable T:/Lab4 - Buses and Peripheral Devices/Buses_and_Peripheral_Devices/Peripheral1_sseg_FourDigit_TB_isim_beh.exe
+Fuse Memory Usage: 33696 KB
+Fuse CPU Usage: 483 ms

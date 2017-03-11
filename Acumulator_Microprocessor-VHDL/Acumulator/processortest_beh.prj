@@ -1,0 +1,8 @@
+vhdl work "SevenSegDecoder.vhd"
+vhdl work "Yreg.vhd"
+vhdl work "SevenSegController.vhd"
+vhdl work "PCreg.vhd"
+vhdl work "lab1mem.vhd"
+vhdl work "ALU_Behavioural.vhd"
+vhdl work "ProcessorToLevel.vhd"
+vhdl work "processortest.vhd"

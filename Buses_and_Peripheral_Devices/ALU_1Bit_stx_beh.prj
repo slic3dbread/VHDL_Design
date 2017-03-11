@@ -1,0 +1,6 @@
+vhdl isim_temp "HalfAdder.vhd"
+vhdl isim_temp "FullAdder.vhd"
+vhdl isim_temp "Mux8to1.vhd"
+vhdl isim_temp "BinLogic.vhd"
+vhdl isim_temp "AdderSubtractor.vhd"
+vhdl isim_temp "ALU_1Bit.vhd"

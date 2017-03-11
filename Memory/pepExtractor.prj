@@ -1,0 +1,3 @@
+work	"mem.vhd"
+work	"seven_seg.vhd"
+work	"singleport_memory.vhd"
